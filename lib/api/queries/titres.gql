@@ -26,11 +26,7 @@ fragment titre on Titre {
   id
   nom
   type {
-    id
-    type {
-      nom
-      exploitation
-    }
+    ...titreType
   }
   domaine {
     id
@@ -145,4 +141,17 @@ fragment reference on Reference {
     nom
   }
   nom
+}
+
+fragment titreType on TitreType {
+  id
+  type {
+    ...titreTypeType
+  }
+}
+
+fragment titreTypeType on TitreTypeType {
+  id
+  nom
+  exploitation
 }
