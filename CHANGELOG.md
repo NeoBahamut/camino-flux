@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.10.13](https://github.com/MTES-MCT/camino-flux/compare/v0.10.12...v0.10.13) (2020-04-20)
+
+
+### Features
+
+* **filtre:** caractérise les types de titres selon exploration ou exploitation ([#9](https://github.com/MTES-MCT/camino-flux/issues/9)) ([b2255e4](https://github.com/MTES-MCT/camino-flux/commit/b2255e42d6588b1c14f76122584170b5c33ef181))
+* **flux:** taggue l'utilisation des flux geojson sur Matomo ([#11](https://github.com/MTES-MCT/camino-flux/issues/11)) ([38ba886](https://github.com/MTES-MCT/camino-flux/commit/38ba8864d44e46ee167503c40111823c273977fe))
+
+
+### Bug Fixes
+
+* **stats:** corrige l'implémentation du tracker ([584fca8](https://github.com/MTES-MCT/camino-flux/commit/584fca8e75ad95bb15108ec120f82acac6b32e01))
+
 ### [0.10.12](https://github.com/MTES-MCT/camino-flux/compare/v0.10.11...v0.10.12) (2020-03-23)
 
 ### [0.10.11](https://github.com/MTES-MCT/camino-flux/compare/v0.10.10...v0.10.11) (2020-03-19)
