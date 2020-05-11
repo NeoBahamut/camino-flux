@@ -18,7 +18,10 @@ query Titres(
     substances: $substances
     territoires: $territoires
   ) {
-    ...titre
+    elements {
+      ...titre
+    }
+    total
   }
 }
 
